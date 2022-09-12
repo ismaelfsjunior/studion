@@ -5,6 +5,7 @@
 }
 
 :root {
+    --color-primery: #ffc500;
     font-family: 'Montserrat',sans-serif;
     font-size: 16px;
 }
@@ -43,4 +44,8 @@ li {
 .navbar__links a {
     color: #fff;
     text-decoration: none;
+}
+
+.navbar__links a:hover {
+    color: var(--color-primery);
 }
