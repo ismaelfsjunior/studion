@@ -12,6 +12,7 @@
 
 body{
     margin: 0;
+    padding-top: 7.75rem;
 }
 
 ul {
@@ -30,6 +31,7 @@ ul {
     left: 0;
     
     width: 100vw;
+    height: 7.75rem;
     padding: 0 1rem;
     
     background-color: #000;
@@ -57,11 +59,11 @@ ul {
 }
 
 .logo-studion {
-    font-size: 38px;
+    font-size: 2.375rem;
     font-weight: 900;
     text-transform: uppercase;
     text-align: right;
-    line-height: 1ch;
+    line-height: 1ch; /* relativa ao tamanho da altura do glifo 0 da fonte */
 }
 
 .logo-studion_subtitle {
