@@ -16,6 +16,12 @@ body{
     padding-top: 7.75rem;
 }
 
+header,
+main,
+footer {
+    overflow: hidden;
+}
+
 ul {
     display: flex;
     list-style: none;
@@ -136,4 +142,27 @@ ul {
    border-color: var(--color-primery);
    background-color: var(--color-primery);
    color: #fff;
+}
+
+#counter {
+    background-color: var(--color-primery);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.counter__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    place-items: center;    
+    margin: 0;
+    padding: 4.375rem 1rem;
+}
+
+.counter__container h3 {
+    font-size: 2.1875rem;
+}
+
+.counter__container small {
+    display: block;
+    font-size: 1.25rem;
 }
