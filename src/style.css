@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Roboto&display=swap');
 
 * {
     box-sizing: border-box;
@@ -7,9 +8,10 @@
 :root {
     font-family: 'Montserrat',sans-serif;
     font-size: 16px;
-    color: #333;
+    --color-copy: #333;
     --color-primery: #ffc500;
-    --default-padding: 1rem;    
+    --default-padding: 1rem; 
+    color: var(--color-copy);   
 }
 
 body{
@@ -139,7 +141,8 @@ ul {
 
 .btn:hover, 
 .btn:active, 
-.btn:focus {
+.btn:focus,
+.btn--institutional {
    border-color: var(--color-primery);
    background-color: var(--color-primery);
    color: #fff;
@@ -194,6 +197,14 @@ ul {
 }
 
 .institutional p {
+    font-family: 'roboto', sans-serif;
     font-size: 1.0625rem;
     line-height: 1.6875rem;
+    margin-bottom: 0;
+    margin-bottom: 2.5rem;
+}
+
+.btn--institutional:hover {
+    color: var(--color-copy);
+    background: unset;
 }
