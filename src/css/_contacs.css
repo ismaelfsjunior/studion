@@ -1,0 +1,39 @@
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact__info {
+}
+
+.contact__info__container,
+.contact__form__container {
+    width: 540px;
+}
+
+.contact__info i {
+    color: var(--color-primery);
+}
+
+.contact__info__container{
+    float: right;
+}
+
+.contact__form__container {
+    padding-left:  7.125rem;    
+}
+
+.contact__form {
+    background-color: #000;
+    color: #fff;
+}
+
+.contact__info span,
+.contact__form label,
+.contact__form input{
+    display: block;
+}
+
+.contact__form button {
+    float: right;
+}
