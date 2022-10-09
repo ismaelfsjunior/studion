@@ -24,6 +24,7 @@
 
 .hero__copy h2{
     margin: 0;
+    margin-left: -6rem;
     margin-bottom: 3rem;
     font-size: 7.5rem;
     line-height: 7.5rem;
@@ -33,6 +34,12 @@
 
 .hero__copy p {
     margin: 0;
+    margin-left: -6rem;
+    float: left;     
+    width: 70%;  
+    display: flex;
+    justify-content: flex-start;
+
     font-size: 0.9375rem;
     line-height: 1.875rem;
     color: var(--color-copy--alt);
