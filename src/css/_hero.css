@@ -44,3 +44,35 @@
     line-height: 1.875rem;
     color: var(--color-copy--alt);
 }
+
+.hero__depoimento {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50vw;
+    padding: 7rem 1.875rem;
+}
+
+.hero__depoimento h2{
+    margin: 0;
+    margin-left: -6rem;
+    margin-bottom: 3rem;
+    font-size: 5.5rem;
+    line-height: 7.5rem;
+    letter-spacing: -0.3125rem;
+    color: var(--color-primery);
+}
+
+.hero__depoimento p {
+    margin: 0;
+    margin-left: -6rem;
+    float: left;     
+    width: 36.8125rem;  
+    height: 5.0625rem;
+    display: flex;
+    justify-content: flex-start;
+
+    font-size: 0.9375rem;
+    line-height: 1.875rem;
+    color: var(--color-copy--alt);
+}
