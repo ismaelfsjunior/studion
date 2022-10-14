@@ -36,6 +36,8 @@ $(document).ready( () => {
         Email.send(emailOptions).then((message) => {
           alert(message);
         });
-      });    
+      });         
   });
+
+
 
