@@ -6,26 +6,14 @@ $(document).ready( () => {
         nextArrow: '<button type="button" class="slick-next slider__next-arrow">Previous</button>'
     };  
     $(".slider").slick(slickOptions);
+    const slickOptionsdepoiment =  {
+      autoplay: true,  
+      dots: true,       
+      prevArrow: '<button type="button" class="slick-prev slider__depoimento_prev-arrow">Previous</button>',    
+      nextArrow: '<button type="button" class="slick-next slider__depoimento_next-arrow">Previous</button>'
+    }; 
+    $(".slider__depoimento").slick(slickOptionsdepoiment);
 
-    // $('.footer__form-button').on('click', () => {
-    //     const email = $('#email').val();
-    //     Email.send({
-    //         Host : "smtp.gmail.com",
-    //         Username : "jucax03@gmail.com",
-    //         Password : "juquinha",
-    //         To : 'jucax03@gmail.com',
-    //         From : email,
-    //         Subject : "Por favor me adiocione na newsletter",
-    //         Body : `Olá,
-    //         Eu gostaria de ser adicionando na newsletter do site.
-    //         Meu email é ${email}.
-
-    //         Obrigado!
-    //         `,
-    //     }).then(function (message) {
-    //         alert("mail sent successfully")
-    //       }); 
-    // });
     $(".footer__form-button").on("click", () => {
         const email = $("#email").val();
     
