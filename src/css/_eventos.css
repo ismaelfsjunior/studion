@@ -1,0 +1,132 @@
+.events {
+    margin: 0;
+    height: 94.1875rem;
+}
+
+.events__copy {
+    padding-top: 3.625rem;
+    padding-left: 3.5rem;
+}
+
+.events__copy-div {
+    margin: 0.5rem;
+    padding-top: 2.1875rem;
+    padding-left: 2.5rem;
+    padding-bottom: 5.75rem;
+    background-color: #fff;
+    text-align: center;
+}  
+
+.events__copy-div span {
+    margin-top: 2rem;  
+    padding-left: 16rem;     
+    position: absolute;
+    color: #fdd138;
+}
+
+.events__copy-items {
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+
+.events__copy-items img {
+    width: 11.5rem;
+    height: 13rem;
+}
+
+.events__copy-contents {
+    padding-left: 3.1875rem;
+}
+
+.events__copy-contents h2 {
+    margin: 0;
+    padding-top: 2.125rem;
+    text-transform: uppercase;
+    color: var(--color-primery);
+    font-size: 1.25rem;
+    letter-spacing: 0.25rem;
+    font-weight: 700;
+}
+
+.events__copy-contents i {
+    padding-right: 1rem;
+    color: var(--color-primery);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.events__copy-contents h4 {
+    margin: 0;
+    margin-top: 1.75rem;
+    font-size: 0.9375rem;
+    color: #000000;
+    font-weight: 700;
+}
+
+.events__copy-contents p {
+    margin: 0;
+    padding-top: 1.375rem;
+    width: 31.625rem;
+    font-size: 1.0625rem;
+    line-height: 1.6875rem;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.events__copy-info {
+    margin: 0;
+    margin-top: 4.25rem;
+    margin-left: 14.7rem;
+    margin-right: 2rem;
+    color: #333333;
+    /*display: none;*/
+}
+
+.events__copy-info p {
+    margin: 0;
+    font-size: 1.0625rem;
+    line-height: 1.6875rem;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.events__copy-info h4 {
+    margin: 2.4375rem 0 0 0;
+    font-size: 0.9375rem;
+    letter-spacing: 0.1875rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.events__copy-info span {
+    padding-left: 8rem;
+    margin-top: -0.4rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-family: "Roboto";
+    display: block;
+    position: relative;
+    color: #333333;
+}
+
+.events__copy-info i {
+    padding-right: 1rem;
+    color: var(--color-primery);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.events__copy-info h2 {
+    margin: -2.5rem 0 0 0;
+    font-size: 0.9375rem;
+    letter-spacing: 0.1875rem;
+    color: #fdd138;
+    font-weight: 700;
+    text-align: right;
+}
+
+.events__copy-info a:link { 
+    text-decoration: none; 
+}
