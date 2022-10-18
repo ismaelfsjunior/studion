@@ -21,7 +21,8 @@
     margin-top: 2rem;  
     padding-left: 16rem;     
     position: absolute;
-    color: #fdd138;
+    color: #000;
+    cursor: pointer;
 }
 
 .events__copy-items {
