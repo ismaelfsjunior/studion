@@ -20,7 +20,21 @@
     border-color: var(--color-primery);
     background-color: var(--color-primery);
     color: #fff;
- }
+}
+
+.btn--institutional,
+.btn--quote {
+    display: block;    
+    margin: 0 auto;    
+}
+
+@media screen and (min-width: 1280px) {
+    .btn--institutional,
+    .btn--quote {
+        display: inline;
+        /* margin: unset; */
+    }
+}
 
  .btn--institutional:hover,
  .btn--contact:hover {
@@ -44,4 +58,9 @@
     height: 3.8rem;
     margin-top: 7.5rem;
     margin-right: 1rem;
+}
+
+.btn--slide {
+    width: 15.5rem;
+    height: 3.8rem;
 }

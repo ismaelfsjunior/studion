@@ -15,10 +15,3 @@ $(document).ready( () => {
     }; 
     $(".slider__depoimento").slick(slickOptionsdepoiment); 
   });
-
-
-
-  
-
-
-
