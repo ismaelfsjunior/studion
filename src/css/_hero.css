@@ -15,26 +15,38 @@
 }
 
 .hero__copy {
-    position: absolute;
     bottom: 0;
     right: 0;
-    width: 50vw;
     padding: 7rem 1.875rem;
+}
+
+@media screen and (min-width: 1280px) {
+    .hero__copy {
+        position: absolute;
+        width: 50vw;
+    }
 }
 
 .hero__copy h2{
     margin: 0;
-    /* margin-left: -6rem; */
-    margin-bottom: 3rem;
-    font-size: 7.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 3.5rem;
     line-height: 7.5rem;
     letter-spacing: -0.3125rem;
+    /* text-align: center; */
     color: var(--color-primery);
+}
+
+@media screen and (min-width: 1280px) {
+    .hero__copy h2 {
+        margin-bottom: 3rem;
+        font-size: 7.5rem;
+        /* text-align: left; */
+    }
 }
 
 .hero__copy h4 {
     margin: 0;
-    /* margin-left: -6rem; */
     margin-top: 6.375rem;
     font-size: 0.9675rem;
     letter-spacing: 0.1875rem;
@@ -46,15 +58,18 @@
 
 .hero__copy p {
     margin: 0;
-    /* margin-left: -6rem; */
-    float: left;     
-    width: 70%;  
-    display: flex;
-    justify-content: flex-start;
-
     font-size: 0.9375rem;
     line-height: 1.875rem;
     color: var(--color-copy--alt);
+}
+
+@media screen and (min-width: 1280px) {
+    .hero__copy p {
+        float: left;     
+        width: 70%;  
+        display: flex;
+        justify-content: flex-start;        
+    }
 }
 
 .hero__depoimento {
