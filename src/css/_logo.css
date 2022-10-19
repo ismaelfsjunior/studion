@@ -4,6 +4,13 @@
     text-transform: uppercase;
     text-align: right;
     line-height: 1ch; /* relativa ao tamanho da altura do glifo 0 da fonte */
+    padding-left: 1rem;
+}
+
+@media screen and (min-width: 1280px) {
+    .logo-studion {
+        padding-left: 0;
+    }
 }
 
 .logo-studion_subtitle {
