@@ -2,5 +2,6 @@
     --color-copy: #333;
     --color-copy--alt: #cccccc;
     --color-primery: #ffc500;
-    --default-padding: 1rem;    
+    --default-padding: 1rem;   
+    --width-gallery: 15.1875rem;  
 }
