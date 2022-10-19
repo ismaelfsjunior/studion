@@ -1,15 +1,3 @@
-.hero__copy h4 {
-    margin: 0;
-    margin-left: -6rem;
-    margin-top: 6.375rem;
-    font-size: 0.9675rem;
-    letter-spacing: 0.1875rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: var(--color-primery);
-
-}
-
 .galeria {
     margin: 0;
     height: 67.5rem;
@@ -22,8 +10,8 @@
 }
 
 .gallery__column {
-    flex: 25%;
-    padding: 0 4px;    
+    flex: 20%;
+    padding: 0 0.25rem;    
 }
 
 .gallery__row {
@@ -35,69 +23,69 @@
 .image01 {
     margin-top: 1.8125rem;
     vertical-align: middle;
-    width: 16.1875rem;
+    width: var(--width-gallery);
     height: 10.8125rem;
 }
 
 .image02 {
     margin-top: 1.8125rem;
     vertical-align: middle;
-    width: 16.1875rem;
+    width: var(--width-gallery);
     height: 15.625rem;
 }
 
 .image03 {
     margin-top: 1.8125rem;
     vertical-align: middle;
-    width: 16.1875rem;
+    width: var(--width-gallery);
     height: 15.75rem;
 }
 
 .image04 {
     margin-top: 1.8125rem;
     vertical-align: middle;
-    width: 16.1875rem;
+    width: var(--width-gallery);
     height: 21.6875rem;
 }
 
 .image05 {
     margin-top: 1.8125rem;
     vertical-align: middle;
-    width: 16.1875rem;
+    width: var(--width-gallery);
     height: 15.75rem;
 }
 
 .image06 {
     margin-top: 1.8125rem;
     vertical-align: middle;
-    width: 16.1875rem;
+    width: var(--width-gallery);
     height: 17.625rem;
 }
 
 .image07 {
     margin-top: 1.8125rem;
     vertical-align: middle;
-    width: 16.1875rem;
+    width: var(--width-gallery);
     height: 10.4375rem;
 }
 
 .image08 {
     margin-top: 1.8125rem;
     vertical-align: middle;
-    width: 16.1875rem;
+    width: var(--width-gallery);
     height: 15.75rem;
 }
 
 .image09 {
     margin-top: 1.8125rem;
     vertical-align: middle;
-    width: 16.1875rem;
+    width: var(--width-gallery);
     height: 12.1875rem;
 }
 
 .image10 {
     margin-top: 1.8125rem;
     vertical-align: middle;
-    width: 16.1875rem;
+    width: var(--width-gallery);
     height: 27.0625rem;
 }
